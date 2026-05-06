@@ -1,0 +1,38 @@
+/* Corpo da pagina */
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:linear-gradient(135deg, orange 50%, blue 50%);
+    height: 100vh;
+}
+
+/* Conteiner para bloco do usuário */
+.conteiner{
+    text-align: center;
+    border-radius: 40px;
+    padding: 20px 20px;
+    width: 350px;
+    background-color: white;
+    
+}
+
+/* Bloco para o meio da pagina */
+#meioPagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Imagem Foto de perfil */
+img{
+    border-radius: 300px;
+    width: 200px;
+    height: 200px;
+}
+
+/* Nome do usuário */
+#nomeUsuario{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+}
