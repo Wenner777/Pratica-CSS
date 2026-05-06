@@ -12,7 +12,7 @@ body{
     text-align: center;
     border-radius: 40px;
     padding: 20px 20px;
-    width: 350px;
+    width: 250px;
     background-color: white;
     
 }
@@ -27,12 +27,37 @@ body{
 /* Imagem Foto de perfil */
 img{
     border-radius: 300px;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 /* Nome do usuário */
 #nomeUsuario{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* Paragrafo da função */
+#prgFuncao{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+/* Botão para ver perfil */
+#btnPerfil{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 15px;
+    width: 80px;
+    height: 25px;
+    box-shadow: 1px 1px 5px black;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#btnPerfil:hover{
+    transform: scale(1.1);
 }
